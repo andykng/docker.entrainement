@@ -1,0 +1,53 @@
+/* Navigation Bar */
+.bg-nav {
+	background: #f8f9fa; /* Light gray background */
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	transition: background 0.3s ease-in-out; /* Smooth transition on hover */
+	z-index: 1000;
+  }
+  
+  .bg-nav:hover { /* Add hover effect for a more dynamic look */
+	background: #e9ecef; /* Slightly darker on hover */
+  }
+  
+  .navbar .navbar-brand {
+	color: #333; /* Darker text for better contrast */
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif; /* Consider using a modern font */
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+	color: #666; /* Lighter text color */
+	font-weight: 500; /* Medium weight for readability */
+	margin-right: 1.5rem; /* Add some spacing between links */
+	transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+	color: #0f056b; /* Deep purple on hover */
+	text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-text {
+	color: #999; /* Even lighter text for less prominent elements */
+	font-weight: normal;
+  }
+  
+  /* Main Container */
+  .container {
+	margin-top: 2rem;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Consistent shadow style */
+  }
+  
+  /* Red Icon */
+  .red-icon {
+	color: #c02942; /* More nuanced red color */
+	cursor: pointer;
+	transition: color 0.3s ease-in-out;
+  }
+  
+  .red-icon:hover {
+	color: #971d31; /* Darker red on hover */
+  }
